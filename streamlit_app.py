@@ -30,7 +30,7 @@ def search_videos(query, max_results=5):
         return []
 
 # Streamlit App Layout
-st.title("FitMate: Virtual Workout Buddy")
+st.title("HealthBot: Virtual Workout Buddy")
 
 # Input fields
 client_info = st.text_area("Talk with Fit", help="Enter your message here")
